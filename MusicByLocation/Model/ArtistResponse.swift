@@ -12,7 +12,7 @@ struct ArtistResponse: Codable {
     var results: [Artist]
     
     private enum CodingKeys: String, CodingKey {
-        case count = "resultcount"
+        case count = "resultCount"
         case results
     }
 }
