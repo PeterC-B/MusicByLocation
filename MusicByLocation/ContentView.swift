@@ -12,12 +12,17 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-            Text(state.artistsByLocation)
-                .padding()
-            Spacer()
-            Button("Find Music", action: {
-                state.findMusic()
-            })
+            ScrollView{
+                ForEach(state.artistsByLocation, id: \.self) { artist in
+                    Text(artist)
+                        .padding()
+                }
+                Spacer()
+                Button("Find Music", action: {
+                    state.findMusic()
+                })
+            }
+            
         }.onAppear(perform: {
             state.requestAccessToLocationData()
         })

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F638695427D15CAE008FB6A9 /* ITunesAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F638695327D15CAE008FB6A9 /* ITunesAdapter.swift */; };
 		F63F88F927C95DAD00187A4A /* MusicByLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F88F827C95DAD00187A4A /* MusicByLocationApp.swift */; };
 		F63F88FB27C95DAD00187A4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F88FA27C95DAD00187A4A /* ContentView.swift */; };
 		F63F88FD27C95DAF00187A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63F88FC27C95DAF00187A4A /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F638695327D15CAE008FB6A9 /* ITunesAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdapter.swift; sourceTree = "<group>"; };
 		F63F88F527C95DAD00187A4A /* MusicByLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicByLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63F88F827C95DAD00187A4A /* MusicByLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationApp.swift; sourceTree = "<group>"; };
 		F63F88FA27C95DAD00187A4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				F69166F527CD6EDE001D129D /* StateController.swift */,
 				F63F88FC27C95DAF00187A4A /* Assets.xcassets */,
 				F63F88FE27C95DAF00187A4A /* Preview Content */,
+				F638695327D15CAE008FB6A9 /* ITunesAdapter.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				F69166F627CD6EDE001D129D /* StateController.swift in Sources */,
 				F69166FC27CD88A4001D129D /* ArtistResponse.swift in Sources */,
 				F69166FE27CD891F001D129D /* Artist.swift in Sources */,
+				F638695427D15CAE008FB6A9 /* ITunesAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
